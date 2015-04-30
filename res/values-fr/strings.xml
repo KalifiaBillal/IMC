@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IMC_FR</string>
+    <string name="hello_world">Bonjour</string>
+    <string name="action_settings">Reglages</string>
+    <string name="title_activity_interpretation">Interpretation</string>
+    <string name="title_activity_conseil">Conseils</string>
+    
+    <!-- Les noms des champs -->
+    <string name="titre">Mon Indice de Masse Corporelle</string>
+   	<string name="poids">Poids :</string>
+   	<string name="taille">Taille :</string>
+  	<string name="message_poids">Quel est votre poids</string>
+   	<string name="message_taille">Quel est votre taille</string>
+    
+   	<!-- Les bouttons radios -->
+   	<string name="metre">Mètre</string>
+   	<string name="centimetre">Centimètre</string>
+   	
+   	<!-- Les bouttons -->
+    <string name="calculer">Calculer</string>
+    <string name="interpreter">Interpréter</string>
+    <string name="reinitialiser">Réinitialiser</string>
+    
+     <string name="indication">Vous devez cliquer sur le bouton « Calculer » pour obtenir un résultat." </string>
+    
+    <!-- ************************************************************************************** -->
+    <!-- interpretation activity -->
+    <!-- ************************************************************************************** -->
+    <string name="titreInterpretation">Interpretation de votre IMC</string>
+    <string name="denutrition">Dénutrition</string>
+    <string name="maigreur">Maigreur</string>
+    <string name="corpulence_normale">Corpulence normale</string>
+    <string name="surpoids">Surpoids</string>
+    <string name="obesite_modere">Obésité modéré</string>
+    <string name="obesite_severe">Obésité sévère</string>
+    <string name="obesite_massive">Obésité massive</string>
+    <string name="quitter">Quitter</string>
+    
+    
+    <!-- ************************************************************************************** -->
+    <!-- conseil activity -->
+	<!-- ************************************************************************************** -->
+	
+	<string name="votre_imc">Votre IMC :</string>
+	
+	
+	
+	
+	
+	<!-- les conseils en fonction de l'IMC -->
+	<string name="conseil_denutrition">Votre apport énergétique est sous la moyenne recommandée (entre 2000 et 2500 calories par jour). Il existe plusieurs facteurs qui peuvent conduire à la dénutrition par exemple : la famine, un jeûne, des troubles psychologiques ou certaines maladies. Il serait important de consulter un médecin rapidement, car votre état requiert probablement un traitement médical.</string>
+	<string name="conseil_maigreur">L’état de maigreur expose la personne à différentes maladies (physique et mentale). Votre apport énergétique est probablement sous la moyenne recommandée (entre 2000 et 2500 calories par jour). Il est possible d’améliorer votre état en augmentant votre consommation de sucres et de matières grasses. Vous pouvez également consulter un médecin qui pourra vous proposer un plan alimentaire ou vous référer directement à une diététicienne.</string>
+    <string name="conseil_corpulence_normale">Bravo, cet état indique que vous pouvez considérer votre poids comme étant santé. Le fait de développer des maladies reliées à votre poids est très peu probable. Vous n’avez qu’à continuer de suivre vos bonnes habitudes alimentaires et d’exercices physiques. N’oubliez pas de vérifier votre poids régulièrement afin de savoir si votre IMC est toujours dans cette braquette.</string>
+    <string name="conseil_surpoids">Vous augmentez légèrement vos chances de développer une maladie relié à l’obésité (surtout si vous êtes près d’un IMC de 30). Votre apport énergétique est probablement au dessus de la moyenne recommandée (entre 2000 et 2500 calories par jour). La bonne nouvelle par contre c’est qu’avec très peu d’effort vous pouvez descendre votre indice sous la barre de 25. En effet, un programme d’exercice aussi simple que 30 minutes de marche 4 fois par semaine combinée à une alimentation saine pourrait rapidement vous faire perdre votre excédent de poids.</string>
+    <string name="conseil_obesite_modere">Votre apport énergétique est très probablement au dessus de la moyenne recommandée (entre 2000 et 2500 calories par jour). Il serait nécessaire de commencer un programme de mise en forme pour perdre votre excédent de poids. Vous devez également changer vos habitudes alimentaires et éviter la consommation excessive de gras et de sucres. Si vous n’y arrivez pas seul, il serait pertinent de consulter un médecin qui pourrait vous aider à bien établir un plan de remise en forme. Ne vous découragez pas, car vous n’êtes vraiment pas seuls dans cette situation et plusieurs réussissent à améliorer leurs états en modifiant de simples habitudes de vie.</string>
+    <string name="conseil_obesite_severe">Vous augmentez vos chances de développer une ou des maladies reliées à l’obésité. Votre apport énergétique est très probablement au dessus de la moyenne recommandée (entre 2000 et 2500 calories par jour). Il serait nécessaire de commencer un programme de mise en forme pour perdre votre excédent de poids. Vous devez également changer vos habitudes alimentaires et éviter la consommation excessive de gras et de sucres. Si vous n’y arrivez pas seul, il serait pertinent de consulter un médecin qui pourrait vous aider à bien établir un plan de remise en forme. Ne vous découragez pas, car vous n’êtes vraiment pas seuls dans cette situation et plusieurs réussissent à améliorer leurs états en modifiant de simples habitudes de vie.</string>
+    <string name="conseil_obesite_massive">Vous augmentez vos chances de développer une ou des maladies reliées à l’obésité. Votre apport énergétique est très probablement au dessus de la moyenne recommandée (entre 2000 et 2500 calories par jour). Il serait nécessaire de commencer un programme de mise en forme pour perdre votre excédent de poids. Vous devez également changer vos habitudes alimentaires et éviter la consommation excessive de gras et de sucres. Si vous n’y arrivez pas seul, il serait pertinent de consulter un médecin qui pourrait vous aider à bien établir un plan de remise en forme. Ne vous découragez pas, car vous n’êtes vraiment pas seuls dans cette situation et plusieurs réussissent à améliorer leurs états en modifiant de simples habitudes de vie.</string>
+    
+    <!-- les messages IMC -->
+    <string name="message_denutrition">Vous êtes en état de dénutrition.</string>
+	<string name="message_maigreur">Vous êtes en état de maigreur (trop mince).</string>
+    <string name="message_corpulence_normale">Vous êtes en état de corpulence normale.</string>
+    <string name="message_surpoids">Vous êtes en état de surpoids.</string>
+    <string name="message_obesite_modere">Vous êtes en état d’obésité modérée.</string>
+    <string name="message_obesite_severe">Vous êtes en état d’obésité severe.</string>
+    <string name="message_obesite_massive">Vous êtes en état d’obésité massive.</string>
+
+</resources>
+
