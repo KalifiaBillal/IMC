@@ -20,7 +20,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 	
-	private final String defaut = "toto";
+	//private final String defaut = "toto";
 
 	Button calculerIMC = null; 	
 	Button raz = null; 
@@ -47,7 +47,7 @@ public class MainActivity extends Activity {
 		poids 	=(EditText)findViewById(R.id.poids);
 		
 		group 	=(RadioGroup)findViewById(R.id.group);
-		result	=(TextView)findViewById(R.id.result);
+		//result	=(TextView)findViewById(R.id.result);
 		
 		//IMC02
 		interpretation = (Button)findViewById(R.id.interpretation);
@@ -104,7 +104,7 @@ private OnClickListener razListener = new OnClickListener()
 	{
 		poids.getText().clear();
 		taille.getText().clear();
-		result.setText(defaut);
+		//result.setText(defaut);
 	}
 };
 
@@ -125,7 +125,7 @@ private TextWatcher textWatcher = new TextWatcher()
 	 @Override
 	 public void onTextChanged(CharSequence s, int start, int before, int count)
 	 {
-		 result.setText(defaut);
+		 //result.setText(defaut);
 	 }
 	 
 	 @Override
@@ -150,7 +150,7 @@ public void onSaveInstanceState(Bundle savedInstanceState) {
 public void onRestoreInstanceState(Bundle savedInstanceState) {
     super.onRestoreInstanceState(savedInstanceState);
     imc = savedInstanceState.getFloat("imc");
-    result.setText(Float.toString(savedInstanceState.getFloat("imc")));
+    //result.setText(Float.toString(savedInstanceState.getFloat("imc")));
     Log.w("P2", "onRestoreInstanceState");
 }
 }
