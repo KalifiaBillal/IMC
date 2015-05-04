@@ -38,7 +38,7 @@
     <string name="obesite_modere">Moderately obese</string>
     <string name="obesite_severe">Severely obese</string>
     <string name="obesite_massive">Very severely obese</string>
-    <string name="quitter">Quit</string>
+    <string name="retour">Quit</string>
 
     <!-- ************************************************************************************** -->
     <!-- conseil activity -->

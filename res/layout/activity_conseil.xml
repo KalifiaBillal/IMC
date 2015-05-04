@@ -61,6 +61,6 @@
         android:id="@+id/quitter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/quitter" />
+        android:text="@string/retour" />
 
 </LinearLayout>

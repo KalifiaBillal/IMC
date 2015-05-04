@@ -137,7 +137,7 @@
         android:id="@+id/quitter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/quitter"/>
+        android:text="@string/retour"/>
 
     <ScrollView
         android:id="@+id/scrollView1"
