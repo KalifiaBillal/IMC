@@ -67,5 +67,6 @@
     <string name="message_obesite_severe">Vous êtes en état d’obésité severe.</string>
     <string name="message_obesite_massive">Vous êtes en état d’obésité massive.</string>
 
+    <string name="message_erreur_test">Vous devez saisir votre poids et votre taille !</string>
 </resources>
 

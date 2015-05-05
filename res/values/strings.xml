@@ -64,4 +64,6 @@
     <string name="message_obesite_severe">You are obesity severe condition.</string>
     <string name="message_obesite_massive">You are in a state of massive obesity.</string>
 
+    
+    <string name="message_erreur_test">You must input your weight and height !</string>
 </resources>

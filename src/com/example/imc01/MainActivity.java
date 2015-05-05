@@ -2,6 +2,7 @@ package com.example.imc01;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -59,6 +60,7 @@ public class MainActivity extends Activity {
 		poids.addTextChangedListener(textWatcher);
 		
 		
+		
 		//On accède 
 		interpretation.setOnClickListener(interpretationListener);
 	}
@@ -69,9 +71,13 @@ private OnClickListener envoyerListener = new OnClickListener()
 	@Override
 	public void onClick(View v)
 	{
+		
 		if (taille.getText().toString().isEmpty() || poids.getText().toString().isEmpty()){
 			
-			Toast.makeText(MainActivity.this, "Vous devez obligatoirement saisir votre taille et votre poids!", Toast.LENGTH_LONG).show();
+			//Message d'erreur si un des champs est vide.
+			Resources message = getResources();
+			
+			Toast.makeText(MainActivity.this, message.getString(R.string.message_erreur_test), Toast.LENGTH_LONG).show();
 		}
 		else{
 		
