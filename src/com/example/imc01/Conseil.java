@@ -2,6 +2,7 @@ package com.example.imc01;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -19,7 +20,7 @@ public class Conseil extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_conseil);
 		
-		//Récupération de l'IMC
+		//On récupère l'IMC
 		Bundle b = getIntent().getExtras();
 		String imc = b.getString("imc");
 		Float fimc = Float.valueOf(imc);
@@ -29,12 +30,14 @@ public class Conseil extends Activity {
 		TextView leConseil = (TextView)findViewById(R.id.leConseil);
 		TextView votre_imc = (TextView)findViewById(R.id.message_votre_imc);
 		
+		//TextView inter_normale = (TextView)findViewById(R.id.inter_corpulence_normale);
 				
 		if (fimc < 16.5){
 			//Dénutrition
 			valeurImc.setText(getResources().getString(R.string.votre_imc) + imc);
 			msgImc.setText(getResources().getString(R.string.message_denutrition));
 			leConseil.setText(getResources().getString(R.string.conseil_denutrition));
+			
 		}else{
 			if((fimc > 16.5) && (fimc < 18.5)){
 				//Maigreur
@@ -47,6 +50,7 @@ public class Conseil extends Activity {
 					valeurImc.setText(getResources().getString(R.string.votre_imc) + imc);
 					msgImc.setText(getResources().getString(R.string.message_corpulence_normale));
 					leConseil.setText(getResources().getString(R.string.conseil_corpulence_normale));
+					//inter_normale.setTextColor(Color.parseColor("#FF0000"));
 				}else{
 					if(fimc >= 25 && fimc < 30){
 						//Surpoids

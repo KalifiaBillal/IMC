@@ -26,11 +26,13 @@
     <string name="reinitialiser">Reset</string>
     
     <string name="indication">You must click the "Calculate" button to get a result."</string>
+    
+    <string name="toast_message_erreur_saisie">You must input your weight and height !</string>
 
     <!-- ************************************************************************************** -->
     <!-- interpretation activity -->
     <!-- ************************************************************************************** -->
-    <string name="titreInterpretation">Interpretation of the BMI</string>
+    <string name="titre_interpretation">Interpretation of the BMI</string>
     <string name="denutrition">Undernutrition</string>
     <string name="maigreur">Thinness</string>
     <string name="corpulence_normale">Normal (heathly weight)</string>
@@ -45,15 +47,16 @@
     <!-- ************************************************************************************** -->
    	
    	<string name="votre_imc">Your BMI :</string>
+   	
    
     <!-- les conseils -->
-    <string name="conseil_denutrition">Your energy intake is below the recommended average ( between 2000 and 2500 calories per day) . There are several factors that can lead to malnutrition eg starvation, fasting , psychological disorders or diseases . It would be important to see a doctor quickly because your state probably requires medical treatment.</string>
-    <string name="conseil_maigreur">Your energy intake is below the recommended average ( between 2000 and 2500 calories per day) . There are several factors that can lead to malnutrition eg starvation, fasting , psychological disorders or diseases . It would be important to see a doctor quickly because your state may require medical treatment.</string>
-    <string name="conseil_corpulence_normale">Bravo, this state, you can consider your weight as healthy. The fact of developing diseases related to your weight is very unlikely. Simply continue to follow your eating habits and exercise . Remember to check your weight regularly to see if your BMI is still in this BRACKET</string>
-    <string name="conseil_surpoids">You slightly increase your chance of developing a disease linked to obesity (especially if you are near a BMI of 30). Your energy intake is probably above the recommended average ( between 2000 and 2500 calories per day) . The good news is that with cons by very little effort you can get your clue in the bar 25. In fact, a simple exercise program that 30 minute walk four times a week combined with a diet healthy could quickly make you lose your excess weight.</string>
-    <string name="conseil_obesite_modere">Your energy intake is probably above the recommended average ( between 2000 and 2500 calories per day) . It would be necessary to begin a fitness program to lose your excess weight. You also need to change your eating habits and avoid excessive intake of fat and sugars. If you do not succeed alone, it would be appropriate to consult a doctor who could help you establish a good fitness plan. Do not be discouraged because you really are not alone in this situation and more able to improve their conditions by changing simple habits.</string>
-    <string name="conseil_obesite_severe">You increase your chances of developing one or illnesses related to obesity. Your energy intake is probably above the recommended average ( between 2000 and 2500 calories per day) . It would be necessary to begin a fitness program to lose your excess weight. You also need to change your eating habits and avoid excessive intake of fat and sugars. If you do not succeed alone, it would be appropriate to consult a doctor who could help you establish a good fitness plan. Do not be discouraged because you really are not alone in this situation and more able to improve their conditions by changing simple habits.</string>
-    <string name="conseil_obesite_massive">You increase your chances of developing one or illnesses related to obesity. Your energy intake is probably above the recommended average ( between 2000 and 2500 calories per day). It would be necessary to begin a fitness program to lose your excess weight. You also need to change your eating habits and avoid excessive intake of fat and sugars. If you do not succeed alone, it would be appropriate to consult a doctor who could help you establish a good fitness plan. Do not be discouraged because you really are not alone in this situation and more able to improve their conditions by changing simple habits.</string>
+    <string name="conseil_denutrition">Your energy intake is below the recommended average (between 2000 and 2500 calories per day). Your state probably requires medical treatment.</string>
+    <string name="conseil_maigreur">Your energy intake is below the recommended average. You can improve your condition by increasing your intake of sugars and fats.</string>
+    <string name="conseil_corpulence_normale">This status indicates that you can consider your weight as healthy. Simply continue to follow your eating habits and exercise.</string>
+    <string name="conseil_surpoids">You slightly increase your chances of developing a disease connected to obesity (especially if you are near a BMI of 30). The good news is that with cons by very little effort you can get off your index to below 25.</string>
+    <string name="conseil_obesite_modere">It would be necessary to begin a fitness program to lose your excess weight. If you do not succeed alone, you can consult a doctor who can help you develop a fitness plan.</string>
+    <string name="conseil_obesite_severe">You must reduce your energy intake (less fat and sugar, more fruits and vegetables and starchy foods). You can start a physical activity such as walking, biking or swimming.</string>
+    <string name="conseil_obesite_massive">It would be necessary to begin a fitness program to lose your excess weight. You should also change your eating habits and avoid excessive consumption of fats and sugars.</string>
 
     <!-- les messages sur l'entête -->
     <string name="message_denutrition">You are malnourished</string>
@@ -64,6 +67,4 @@
     <string name="message_obesite_severe">You are obesity severe condition.</string>
     <string name="message_obesite_massive">You are in a state of massive obesity.</string>
 
-    
-    <string name="message_erreur_test">You must input your weight and height !</string>
 </resources>

@@ -28,7 +28,7 @@
     <!-- ************************************************************************************** -->
     <!-- interpretation activity -->
     <!-- ************************************************************************************** -->
-    <string name="titreInterpretation">Interpretation de votre IMC</string>
+    <string name="titre_interpretation">Interpretation de votre IMC</string>
     <string name="denutrition">Dénutrition</string>
     <string name="maigreur">Maigreur</string>
     <string name="corpulence_normale">Corpulence normale</string>
@@ -50,13 +50,13 @@
 	
 	
 	<!-- les conseils en fonction de l'IMC -->
-	<string name="conseil_denutrition">			Votre apport énergétique est sous la moyenne recommandée (entre 2000 et 2500 calories par jour). Votre état requiert probablement un traitement médical.</string>
-	<string name="conseil_maigreur">			Votre apport énergétique est sous la moyenne recommandée. Il est possible d’améliorer votre état en augmentant votre consommation de sucres et de matières grasses.</string>
-    <string name="conseil_corpulence_normale">	Cet état indique que vous pouvez considérer votre poids comme étant santé. Vous n’avez qu’à continuer de suivre vos bonnes habitudes alimentaires et d’exercices physiques.</string>
-    <string name="conseil_surpoids">			Vous augmentez légèrement vos chances de développer une maladie relié à l’obésité (surtout si vous êtes près d’un IMC de 30). La bonne nouvelle par contre c’est qu’avec très peu d’effort vous pouvez descendre votre indice sous la barre de 25.</string>
-    <string name="conseil_obesite_modere">		Il serait nécessaire de commencer un programme de mise en forme pour perdre votre excédent de poids. Si vous n’y arrivez pas seul, vous pouvez consulter un médecin qui pourrait vous aider à établir un plan de remise en forme.</string>
-    <string name="conseil_obesite_severe">		Vous devez diminuer votre apport énergétique (moins de graisses et sucres, plus de fruits et légumes et féculents). Vous pouvez débuter une activité physique tel que la marche, le vélo ou la natation.</string>
-    <string name="conseil_obesite_massive">		Il serait nécessaire de commencer un programme de mise en forme pour perdre votre excédent de poids. Vous devez également changer vos habitudes alimentaires et éviter la consommation excessive de gras et de sucres.</string>
+	<string name="conseil_denutrition">Votre apport énergétique est sous la moyenne recommandée (entre 2000 et 2500 calories par jour). Votre état requiert probablement un traitement médical.</string>
+	<string name="conseil_maigreur">Votre apport énergétique est sous la moyenne recommandée. Il est possible d’améliorer votre état en augmentant votre consommation de sucres et de matières grasses.</string>
+    <string name="conseil_corpulence_normale">Cet état indique que vous pouvez considérer votre poids comme étant santé. Vous n’avez qu’à continuer de suivre vos bonnes habitudes alimentaires et d’exercices physiques.</string>
+    <string name="conseil_surpoids">Vous augmentez légèrement vos chances de développer une maladie relié à l’obésité (surtout si vous êtes près d’un IMC de 30). La bonne nouvelle par contre c’est qu’avec très peu d’effort vous pouvez descendre votre indice sous la barre de 25.</string>
+    <string name="conseil_obesite_modere">Il serait nécessaire de commencer un programme de mise en forme pour perdre votre excédent de poids. Si vous n’y arrivez pas seul, vous pouvez consulter un médecin qui pourrait vous aider à établir un plan de remise en forme.</string>
+    <string name="conseil_obesite_severe">Vous devez diminuer votre apport énergétique (moins de graisses et sucres, plus de fruits et légumes et féculents). Vous pouvez débuter une activité physique tel que la marche, le vélo ou la natation.</string>
+    <string name="conseil_obesite_massive">Il serait nécessaire de commencer un programme de mise en forme pour perdre votre excédent de poids. Vous devez également changer vos habitudes alimentaires et éviter la consommation excessive de gras et de sucres.</string>
     
     <!-- les messages IMC -->
     <string name="message_denutrition">Vous êtes en état de dénutrition.</string>
@@ -67,6 +67,6 @@
     <string name="message_obesite_severe">Vous êtes en état d’obésité severe.</string>
     <string name="message_obesite_massive">Vous êtes en état d’obésité massive.</string>
 
-    <string name="message_erreur_test">Vous devez saisir votre poids et votre taille !</string>
+    <string name="toast_message_erreur_saisie">Vous devez saisir votre poids et votre taille !</string>
 </resources>
 

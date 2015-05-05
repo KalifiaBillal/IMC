@@ -77,7 +77,7 @@ private OnClickListener envoyerListener = new OnClickListener()
 			//Message d'erreur si un des champs est vide.
 			Resources message = getResources();
 			
-			Toast.makeText(MainActivity.this, message.getString(R.string.message_erreur_test), Toast.LENGTH_LONG).show();
+			Toast.makeText(MainActivity.this, message.getString(R.string.toast_message_erreur_saisie), Toast.LENGTH_LONG).show();
 		}
 		else{
 		

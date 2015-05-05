@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Interpretation de la valeur de l&apos;IMC"
+        android:text="@string/titre_interpretation"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#FF6600"
         android:textStyle="bold" />
@@ -33,10 +33,11 @@
 			 android:padding="5dip" />
         
         <TextView
-			 android:text="@string/denutrition"
-			 android:layout_column="1"
-			 android:gravity="left"
-			 android:padding="5dip" /> 
+            android:id="@+id/inter_denutrition"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dip"
+            android:text="@string/denutrition" />
 			 
     </TableRow>
     
@@ -48,10 +49,11 @@
 			 android:padding="5dip" /> 
 			 
         <TextView
-			 android:text="@string/maigreur"
-			 android:layout_column="1"
-			 android:gravity="left"
-			 android:padding="5dip" /> 
+            android:id="@+id/inter_maigreur"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dip"
+            android:text="@string/maigreur" />
 			 
     </TableRow>
     
@@ -63,10 +65,11 @@
 			 android:padding="5dip" /> 
 			 
         <TextView
-			 android:text="@string/corpulence_normale"
-			 android:layout_column="1"
-			 android:gravity="left"
-			 android:padding="5dip" />  
+            android:id="@+id/inter_corpulence_normale"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dip"
+            android:text="@string/corpulence_normale" />
 			 
     </TableRow>
     
@@ -78,10 +81,11 @@
 			 android:padding="5dip" /> 
 			 
         <TextView
-			 android:text="@string/surpoids"
-			 android:layout_column="1"
-			 android:gravity="left"
-			 android:padding="5dip" /> 
+            android:id="@+id/inter_surpoids"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dip"
+            android:text="@string/surpoids" />
 			 
     </TableRow>
     
@@ -93,10 +97,11 @@
 			 android:padding="5dip" /> 
 			 
         <TextView
-			 android:text="@string/obesite_modere"
-			 android:layout_column="1"
-			 android:gravity="left"
-			 android:padding="5dip" />  
+            android:id="@+id/inter_obesite_modere"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dip"
+            android:text="@string/obesite_modere" />
 			 
     </TableRow>
     
@@ -108,10 +113,12 @@
 			 android:padding="5dip" /> 
 			 
         <TextView
-			 android:text="@string/obesite_severe"
-			 android:layout_column="1"
-			 android:gravity="left"
-			 android:padding="5dip" />  
+            android:id="@+id/inter_obesite_severe"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dip"
+            android:text="@string/obesite_severe" />
+  
 	</TableRow>
 	<TableRow>
        <TextView
@@ -121,10 +128,12 @@
 			 android:padding="5dip" /> 
 			 
         <TextView
-			 android:text="@string/obesite_massive"
-			 android:layout_column="1"
-			 android:gravity="left"
-			 android:padding="5dip" />  
+            android:id="@+id/inter_obesite_massive"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dip"
+            android:text="@string/obesite_massive" />
+  
 	</TableRow>
     
     
