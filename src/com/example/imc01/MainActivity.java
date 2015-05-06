@@ -42,18 +42,22 @@ public class MainActivity extends Activity {
 	{ 
 		super.onCreate(savedInstanceState); //super. permet d'en référer à une méthode mère
 		setContentView(R.layout.activity_main);
-		calculerIMC = (Button)findViewById(R.id.calcul);
-		raz 	=(Button)findViewById(R.id.raz);
-		taille	=(EditText)findViewById(R.id.taille);
-		poids 	=(EditText)findViewById(R.id.poids);
 		
-		group 	=(RadioGroup)findViewById(R.id.group);
-		//result	=(TextView)findViewById(R.id.result);
+		//Les Boutons
+		calculerIMC = (Button)findViewById(R.id.calcul); //Définition du bouton Calculer
+		interpretation = (Button)findViewById(R.id.interpretation); //Définition du bouton interpretation
+		raz 	=(Button)findViewById(R.id.raz); //Définition du bouton qui ser à réinitialiser
 		
-		//IMC02
-		interpretation = (Button)findViewById(R.id.interpretation);
+		//Les champs de saisie
+		taille	=(EditText)findViewById(R.id.taille); //Définition de la zone de texte taille
+		poids 	=(EditText)findViewById(R.id.poids); //Définition de la zone de texte poids
 		
-		//On affecte un listernet adapté aux évènements qui peuvent se produire
+		//Les bouton radio
+		group 	=(RadioGroup)findViewById(R.id.group); //Définition du groupe de bouton radio
+		
+		
+		
+		//On affecte un listener adapté aux évènements qui peuvent se produire
 		calculerIMC.setOnClickListener(envoyerListener);
 		raz.setOnClickListener(razListener);
 		taille.addTextChangedListener(textWatcher);
@@ -71,34 +75,32 @@ private OnClickListener envoyerListener = new OnClickListener()
 	@Override
 	public void onClick(View v)
 	{
-		
+		//On verifie si un des champ est vide
 		if (taille.getText().toString().isEmpty() || poids.getText().toString().isEmpty()){
 			
 			//Message d'erreur si un des champs est vide.
 			Resources message = getResources();
-			
 			Toast.makeText(MainActivity.this, message.getString(R.string.toast_message_erreur_saisie), Toast.LENGTH_LONG).show();
 		}
-		else{
+		else{ //Les deux champs ont été complété
 		
-			String t = taille.getText().toString();
-			String p = poids.getText().toString();
-			float tValue = Float.valueOf(t);
-			float pValue = Float.valueOf(p);
+			String t = taille.getText().toString(); //On récupère la taille saisie par l'utilisateur et on l'affecte à la variable t
+			String p = poids.getText().toString(); //On récupère le poid saisie par l'utilisateur et on l'affecte à la variable p
+			float tValue = Float.valueOf(t); //On transforme la valeur que contient t en float et on l'affecte à la variable tValue
+			float pValue = Float.valueOf(p); //On trans
 			
-			if(group.getCheckedRadioButtonId()== R.id.radio2)
+			if(group.getCheckedRadioButtonId()== R.id.radio2) //Si la taille est en centimètre
 			{
-				tValue = tValue/100;
+				tValue = tValue/100; //On convertie la taille en mètre.
 			}
-			tValue = (float)Math.pow(tValue, 2);
-			imc = pValue/tValue;
-			imc = (float)Math.round(imc*100)/100;
-			//result.setText("Ton IMC est" + String.valueOf(imc));
+			tValue = (float)Math.pow(tValue, 2); 
+			imc = pValue/tValue; //Calcule de l'IMC
+			imc = (float)Math.round(imc*100)/100; //Arrondie à 2 chiffres après la virgule.
 			
 			Intent i ; // déclaration d'une variable i, de type Intent
 			i = new Intent(getApplicationContext(), Conseil.class);
-			i.putExtra("imc", String.valueOf(imc));
-			startActivity(i);
+			i.putExtra("imc", String.valueOf(imc)); 
+			startActivity(i); //lance l'activité conseil 
 		}
 	}
 };
@@ -110,7 +112,6 @@ private OnClickListener razListener = new OnClickListener()
 	{
 		poids.getText().clear();
 		taille.getText().clear();
-		//result.setText(defaut);
 	}
 };
 

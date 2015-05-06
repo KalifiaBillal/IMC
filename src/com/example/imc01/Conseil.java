@@ -50,7 +50,6 @@ public class Conseil extends Activity {
 					valeurImc.setText(getResources().getString(R.string.votre_imc) + imc);
 					msgImc.setText(getResources().getString(R.string.message_corpulence_normale));
 					leConseil.setText(getResources().getString(R.string.conseil_corpulence_normale));
-					//inter_normale.setTextColor(Color.parseColor("#FF0000"));
 				}else{
 					if(fimc >= 25 && fimc < 30){
 						//Surpoids

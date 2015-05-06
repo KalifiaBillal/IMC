@@ -94,6 +94,7 @@
                     android:id="@+id/calcul"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_weight="0.30"
                     android:text="@string/calculer" />
 
                 <Button
